@@ -9,6 +9,8 @@ namespace Sugestao_VO
 {
     public class UsuarioVO
     {
+
+
         [Key]
         [Display(Name = "Usuario_idUsuario", ResourceType = typeof(Sugestao_VO.Resources.ResourcesUsuario.ResourcesUsuario))]
         public int idUsuario { get; set; }
